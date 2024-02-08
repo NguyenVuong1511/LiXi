@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lì xì đê</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper h-screen w-full m-auto">
+      <h1 id="Tieude" class="m-auto pt-24 text-center mb-4 text-4xl font-extrabold leading-none tracking-tight text-black-900 md:text-5xl lg:text-6xl">
+        Bạn muốn có một bất ngờ chứ!
+      </h1>
+      <div>
+        <img id="meme1" class="w-48 m-auto" src="cheems-1.png" alt="" />
+        <img id="meme2" class="w-48 m-auto hide" src="cheems.png" alt="" />
+        <img id="meme3" class="w-48 m-auto hide" src="cheems-2.png" alt="" />
+        <img id="meme4" class="w-48 m-auto hide" src="cheems-3.png" alt="" />
+      </div>
+      <div class="m-auto text-center mt-20">
+        <button
+          id="no"
+          type="button"
+          class="focus:outline-none text-white bg-red-500 hover:bg-red-500 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm me-2 mb-2 dark:focus:ring-red-900"
+        >
+          ĐÉO
+        </button>
+        <button
+          id="yes"
+          type="button"
+          class="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 focus:outline-none dark:focus:ring-orange-800"
+        >
+          CÓ
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
